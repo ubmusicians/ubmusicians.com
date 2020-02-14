@@ -1,75 +1,66 @@
-/* Welcome CSS */
+/* Body/Nav Bar/Media CSS */
 
-.welcomepage {
+body {
   height: 100%;
   width: 100%;
 }
 
-.welcomepage p {
+.headerbar {
+	position: fixed;
+  height: 8%;
+	background-color: black;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.headerbar h1 {
   font-family: 'Abel',Arial,sans-serif;
-  font-size: 55px;
+  font-size: 2vw;
+  color: #bcb3b3;
+  z-index: 1;
   position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translate(-50%, -100%);
+  top: 50%;
+  left: 5%;
+  transform: translate(-25%, -100%);
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+
+  .headerbar h1 {
+    font-size: 9vw;
+  }
+}
+
+/* 404 CSS */
+
+.fofpage {
+  position: fixed;
+  font-family: 'Abel',Arial,sans-serif;
+  font-size: 3vw;
+  height: 100%;
+  width: 100%;
 }
 
 #fofone {
-  font-size: 3em;
-  top: 50%;
+  position: absolute;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -300%);
 }
 
 #foftwo {
-  font-size: 3em;
-  top: 65%;
-  transform: translate(-50%, -300%);
-}
-
-/* Search CSS */
-
-.searchpage {
-  height: 100%;
-  width: 100%;
-}
-
-.searchpage p {
-  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
-  font-size: 45px;
   position: absolute;
-  top: 30%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -300%);
 }
 
-.searchpage button {
-  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
-  font-size: 33px;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -90%);
-}
-
-.searchpage input {
-  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
-  font-size: 25px;
-  position: absolute;
-  top: 34%;
-  left: 50%;
-  transform: translate(-50%, -90%);
-}
-
-.searchpage select {
-  font-family: Futura,"Trebuchet MS",Arial,sans-serif;
-  font-size: 20px;
-  position: absolute;
-  width: 10%;
-  top: 61%;
-  left: 50%;
-  transform: translate(-50%, -90%);
-}
+/* Welcome CSS */
 
 /* Results & Catalog CSS */
 
@@ -132,10 +123,4 @@
   padding-left: 15em;
   padding-right: 15em;
   text-align: left;
-}
-
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
 }
