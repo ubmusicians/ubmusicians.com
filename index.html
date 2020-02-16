@@ -2,20 +2,37 @@
 <html lang="en">
 <head>
   <title>UB Musicians</title>
-  <link rel="stylesheet" type="text/css" href="https://ubmusicians.com/main.css"> <!-- main.css -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://ubmusicians.com/main.css">
   <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/iSFDeOt.png"/>
   <script>
-	function onLoad(){
+  function onLoad(){
     console.log("Page created on Feb 11, 2020");
+  }
+
+  function drop() {
+    var x = document.getElementById("navbar");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
   }
   </script>
 </head>
 
 <body onload="onLoad()">
-  <div class="headerbar">
-    <a href="https://ubmusicians.com/"><h1>UB Musicians</h1></a>
+  <div class="nav" id="navbar">
+    <p>UB Musicians</p>
+    <a href="https://ubmusicians.com/schedule">Schedule</a>
+    <a href="https://ubmusicians.com/lessons">Private Lessons</a>
+    <a href="https://ubmusicians.com/contact">Contact</a>
+    <a href="https://ubmusicians.com/" class="active">Home</a>
+    <a href="javascript:void(0);" class="icon" onclick="drop()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <div class="bgimage">
-  </div>
+  <div class="bgimage"></div>
 </body>
 </html>
