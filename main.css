@@ -71,9 +71,6 @@ body {
   .topnav.responsive p {
     display: none;
   }
-  .column {
-    width: 100%;
-  }
 }
 
 /* Home CSS */
@@ -108,6 +105,12 @@ body {
   clear: both;
 }
 
+@media screen and (max-width: 600px) {
+  .lessonscolumn {
+    width: 100%;
+  }
+}
+
 /* Contact CSS */
 
 .contactcolumn {
@@ -123,6 +126,12 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .contactcolumn {
+    width: 100%;
+  }
 }
 
 /* 404 CSS */
