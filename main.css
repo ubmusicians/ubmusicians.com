@@ -97,6 +97,7 @@ body {
   width: 100%;
   overflow-y: hidden;
   z-index: -1;
+  overflow-x: hidden;
 }
 
 .contactcontainer {
@@ -184,6 +185,7 @@ body {
   width: 100%;
   overflow-y: hidden;
   z-index: -5;
+  overflow-x: hidden;
 }
 
 .lessonscontainer {
