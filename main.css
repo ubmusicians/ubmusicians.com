@@ -21,6 +21,8 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .topnav a:hover {
