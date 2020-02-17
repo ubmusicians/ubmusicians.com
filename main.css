@@ -138,7 +138,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,1);
 }
 
 .cardcontainer {
@@ -178,19 +178,32 @@ body {
 /* Lessons CSS */
 
 .lessonsbg {
+  overflow-x: hidden;
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #151515;
+  overflow-y: hidden;
+  z-index: -5;
+}
+
+.lessonscontainer {
+  position: absolute;
+  width: 85%;
+  float: left;
+  top: 50%;
+  left: 55%;
+  transform: translate(-48%, -45%);
 }
 
 .lessonscolumn {
   float: left;
-  width: 33.3%;
-  height: 12em;
-  padding-bottom: 18em;
-  /*border-style: solid;
-  border-width: 1px;*/
+  width: 20%;
+  padding-left: 15px;
+  padding-bottom: 40px;
+}
+
+.lessonscolumn h4 {
+  font-size: 1em;
 }
 
 .lessonscolumncontainer:after {
@@ -199,9 +212,24 @@ body {
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1198px) {
   .lessonscolumn {
-    width: 100%;
+    width: 50%;
+    padding-bottom: 30px;
+  }
+
+  .lessonsbg {
+    overflow-y: scroll;
+    z-index: -1;
+  }
+
+  .lessonscontainer {
+    position: absolute;
+    width: 85%;
+    float: left;
+    top: 5%;
+    left: 65%;
+    transform: translate(-43%, -0%);
   }
 }
 
