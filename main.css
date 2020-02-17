@@ -1,10 +1,11 @@
-/* Body/Nav Bar/Media CSS */
+/* Body/Nav Bar */
 
 body {
   height: 100%;
   width: 100%;
   margin: 0;
   font-family: Tahoma,Verdana,Segoe,sans-serif;
+  background-color: #151515;
 }
 
 .topnav {
@@ -88,7 +89,100 @@ body {
   transform: translate(-5%, -0%);
 }
 
+/* Contact CSS */
+
+.contactbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  z-index: -1;
+}
+
+.contactcontainer {
+  position: absolute;
+  width: 85%;
+  float: left;
+  top: 45%;
+  left: 55%;
+  transform: translate(-48%, -50%);
+}
+
+.contactcolumn {
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+
+.contactcolumn h4 {
+  font-size: 1em;
+}
+
+.contactcolumncontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  transition: 0.3s;
+  width: 95%;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card img {
+  border-radius: 15px 15px 0 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}
+
+@media screen and (max-width: 1198px) {
+  .contactcolumn {
+    width: 50%;
+    padding-bottom: 30px;
+  }
+
+  .contactbg {
+    overflow-y: scroll;
+    z-index: -1;
+  }
+
+  .contactcontainer {
+    position: absolute;
+    width: 85%;
+    float: left;
+    top: 5%;
+    left: 65%;
+    transform: translate(-43%, -0%);
+  }
+}
+
+/* Schedule CSS */
+
+.schedulebg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #151515;
+}
+
 /* Lessons CSS */
+
+.lessonsbg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #151515;
+}
 
 .lessonscolumn {
   float: left;
@@ -107,29 +201,6 @@ body {
 
 @media screen and (max-width: 600px) {
   .lessonscolumn {
-    width: 100%;
-  }
-}
-
-/* Contact CSS */
-
-.contactcolumn {
-  float: left;
-  width: 25%;
-  height: 12em;
-  padding-bottom: 18em;
-  /*border-style: solid;
-  border-width: 1px;*/
-}
-
-.contactcolumncontainer:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .contactcolumn {
     width: 100%;
   }
 }
