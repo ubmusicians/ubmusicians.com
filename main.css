@@ -152,7 +152,7 @@ body {
 
 @media screen and (max-width: 1198px) {
   .contactcolumn {
-    width: 50%;
+    width: 75%;
     padding-bottom: 30px;
     overflow-x: hidden;
   }
@@ -167,8 +167,7 @@ body {
     width: 85%;
     float: left;
     top: 5%;
-    left: 65%;
-    transform: translate(-43%, -0%);
+    transform: translate(-45%, -0%);
   }
 }
 
@@ -222,7 +221,7 @@ body {
 
 @media screen and (max-width: 1198px) {
   .lessonscolumn {
-    width: 50%;
+    width: 75%;
     padding-bottom: 30px;
     overflow-x: hidden;
   }
@@ -237,8 +236,7 @@ body {
     width: 85%;
     float: left;
     top: 5%;
-    left: 65%;
-    transform: translate(-43%, -0%);
+    transform: translate(-45%, -0%);
   }
 }
 
