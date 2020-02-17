@@ -150,6 +150,7 @@ body {
   .contactcolumn {
     width: 50%;
     padding-bottom: 30px;
+    overflow-x: hidden;
   }
 
   .contactbg {
