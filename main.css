@@ -160,6 +160,7 @@ body {
   .contactbg {
     overflow-y: scroll;
     z-index: -1;
+    margin-bottom: 15px;
   }
 
   .contactcontainer {
@@ -229,6 +230,7 @@ body {
   .lessonsbg {
     overflow-y: scroll;
     z-index: -1;
+    margin-bottom: 15px;
   }
 
   .lessonscontainer {
