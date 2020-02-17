@@ -87,6 +87,8 @@ body {
   width: 100%;
   left: 5%;
   transform: translate(-5%, -0%);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* Contact CSS */
@@ -114,6 +116,7 @@ body {
   width: 20%;
   padding-left: 15px;
   padding-bottom: 0px;
+  overflow-x: hidden;
 }
 
 .contactcolumn h4 {
@@ -203,6 +206,7 @@ body {
   width: 20%;
   padding-left: 15px;
   padding-bottom: 40px;
+  overflow-x: hidden;
 }
 
 .lessonscolumn h4 {
@@ -219,6 +223,7 @@ body {
   .lessonscolumn {
     width: 50%;
     padding-bottom: 30px;
+    overflow-x: hidden;
   }
 
   .lessonsbg {
