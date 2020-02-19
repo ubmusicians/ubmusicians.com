@@ -199,9 +199,9 @@ body {
   position: absolute;
   width: 85%;
   float: left;
-  top: 50%;
+  top: 45%;
   left: 55%;
-  transform: translate(-48%, -45%);
+  transform: translate(-48%, -50%);
   margin-bottom: 70px;
 }
 
