@@ -98,7 +98,7 @@ body {
 
 .contactbg {
   position: absolute;
-  background-image: url("https://i.imgur.com/2ge0LA1.jpg");
+  background-image: url("https://i.imgur.com/VFzp4WM.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,7 +194,7 @@ body {
 .lessonsbg {
   overflow-x: hidden;
   position: absolute;
-  background-image: url("https://i.imgur.com/VFzp4WM.jpg");
+  background-image: url("https://i.imgur.com/2ge0LA1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -209,7 +209,7 @@ body {
   position: absolute;
   width: 85%;
   float: left;
-  top: 45%;
+  top: 65%;
   left: 55%;
   transform: translate(-48%, -50%);
   margin-bottom: 70px;
