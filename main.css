@@ -96,7 +96,7 @@ body {
 
 .contactbg {
   position: absolute;
-  background-image: url("https://i.imgur.com/rfTuTda.jpg");
+  background-image: url("https://i.imgur.com/2ge0LA1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,7 +137,7 @@ body {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
   transition: 0.3s;
   width: 95%;
   background-color: white;
@@ -149,7 +149,7 @@ body {
 }
 
 .card:hover {
-  box-shadow: 0 12px 24px 0 rgba(0,0,0,1);
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,.5);
 }
 
 .cardcontainer {
@@ -192,7 +192,7 @@ body {
 .lessonsbg {
   overflow-x: hidden;
   position: absolute;
-  background-image: url("https://i.imgur.com/rfTuTda.jpg");
+  background-image: url("https://i.imgur.com/VFzp4WM.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
