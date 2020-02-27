@@ -21,6 +21,42 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
-  <div class="bgimage"></div>
+  <div class="bgimage">
+    <div class="formcontainer">
+      <form action="https://formsubmit.co/roomrequest@ubmusicians.com" method="POST">
+        <div class="formrow">
+          <div class="leftcol">
+            <label for="fname">Name:</label>
+          </div>
+          <div class="rightcol">
+            <input type="text" id="fname" name="Full Name" placeholder="Your name..." required>
+          </div>
+        </div>
+        <div class="formrow">
+          <div class="leftcol">
+            <label for="request">Room Request For:</label>
+          </div>
+          <div class="rightcol">
+            <select id="request" name="Room Request For">
+              <option value="Private Lessons">Private Lessons</option>
+              <option value="Rehearsal Session">Rehearsal Session</option>
+              <option value="Recording Session">Recording Session</option>
+            </select>
+          </div>
+        </div>
+        <div class="formrow">
+          <div class="leftcol">
+            <label for="message">Additional Comments:</label>
+          </div>
+          <div class="rightcol">
+            <textarea id="subject" name="Comments" placeholder="Need to use extra equipment, etc..." style="height:200px"></textarea>
+          </div>
+        </div><br>
+        <div class="formrow">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
